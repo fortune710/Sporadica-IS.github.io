@@ -12,7 +12,7 @@ body, h1, h2, h3, h4, h5, h6 {
 
 /* cover */
 #cover {
-    background: #222 url('../background-min.jpg') center center no-repeat;
+    background: #222 url('../img/min/background-min.jpg') center center no-repeat;
     background-size: cover;
     color: white;
     height: 100%;
