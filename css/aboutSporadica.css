@@ -1,0 +1,100 @@
+body,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+    font-family: "Montserrat", sans-serif
+}
+
+li,
+a,
+.logo .btn {
+    font-family: "Montserrat", sans-serif
+}
+
+.card-text {
+    font-size: 20px;
+}
+
+li,
+a {
+    font-weight: 500;
+    font-size: 18px;
+    text-decoration: none;
+    color: black;
+}
+
+.logo {
+    font-weight: 500;
+    font-size: 25px;
+    text-decoration: none;
+    color: white;
+    line-height: 60px;
+    margin-right: auto;
+}
+
+h2 {
+    line-height: 60px;
+}
+
+
+
+
+a.btn {
+    text-decoration: none;
+    font-size: medium;
+    padding: 10px 20px;
+}
+
+.btn {
+    border-radius: 10px;
+    max-width: 100%;
+    cursor: pointer;
+    border-color: #673ab7;
+    color: white;
+    background: #673ab7;
+    isolation: isolate;
+}
+
+footer {
+    background: #4CAF50;
+    isolation: isolate;
+    color: white;
+}
+
+/* section content */
+
+.section-content {
+    padding: 5rem 0;
+}
+
+
+/* about section */
+
+.about-text {
+    padding: 1.875rem;
+    
+}
+
+.about-text i {
+    font-size: 20px;
+    padgding: 2px;
+}
+ #bg {
+            background: #201E20;
+            
+        }
+html,
+body {
+    height: 100%;
+}
+
+img {
+    max-width: 100%;
+}
+ .postion {
+            display: inline-block;
+            padding-right: 2px;
+        }
