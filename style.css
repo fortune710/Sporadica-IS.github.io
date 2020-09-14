@@ -376,26 +376,20 @@ img {
 /* :: 3.6.0 ScrollUp */
 
 #scrollUp {
-    background-color: #000000;
+    background-color: #7c1bbd;
     border-radius: 0;
     bottom: 50px;
     color: #ffffff;
     font-size: 24px;
     height: 40px;
     line-height: 37px;
-    right: 50px;
+    right: 10px;
     text-align: center;
     width: 40px;
     border-radius: 50%;
     -webkit-transition-duration: 500ms;
     transition-duration: 500ms;
     box-shadow: 0 1px 5px 2px rgba(0, 0, 0, 0.15);
-}
-
-#scrollUp:hover,
-#scrollUp:focus {
-    background-color: #7c1bbd;
-    color: #ffffff;
 }
 
 
@@ -754,35 +748,6 @@ img {
     overflow: hidden;
 }
 
-.team .member .social {
-    position: absolute;
-    left: 0;
-    bottom: 0;
-    right: 0;
-    height: 40px;
-    opacity: 0;
-    transition: ease-in-out 0.3s;
-    text-align: center;
-    background: rgba(255, 255, 255, 0.85);
-}
-
-.team .member .social a {
-    transition: color 0.3s;
-    color: #111;
-    margin: 0 10px;
-    padding-top: 8px;
-    display: inline-block;
-}
-
-.team .member .social a:hover {
-    color: #673ab7;
-}
-
-.team .member .social i {
-    font-size: 18px;
-    margin: 0 2px;
-}
-
 .team .member .member-info {
     padding: 25px 15px;
 }
@@ -791,7 +756,7 @@ img {
     font-weight: 700;
     margin-bottom: 5px;
     font-size: 18px;
-    color: #111;
+    color: #000;
 }
 
 .team .member .member-info span {
@@ -1000,7 +965,7 @@ section {
 #footer .footer-newsletter form input[type="email"] {
     border: 0;
     padding: 4px 8px;
-    width: calc(100% - 100px);
+    width: calc(85% - 50px);
 }
 
 #footer .footer-newsletter form input[type="submit"] {
@@ -1629,11 +1594,23 @@ section {
     display: block;
     margin-bottom: 10px;
     font-size: 18px;
+    text-align: center;
+}
+
+.single-games-slide .slide-text .game-description {
+    color: darkgrey;
+    display: block;
+    padding: 5px;
+    font-size: 12px;
+    text-align: center;
 }
 
 @media only screen and (max-width: 767px) {
     .single-games-slide .slide-text .game-title {
         font-size: 16px;
+    }
+    .single-games-slide .slide-text .game-description {
+        font-size: 10px;
     }
 }
 
