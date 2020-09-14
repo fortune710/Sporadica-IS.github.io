@@ -231,7 +231,7 @@ img {
     top: 0;
     left: 0;
     position: fixed;
-    background: rgba(255, 255, 255, 0.685);
+    background: rgba(255, 255, 255, 0);
     overflow: hidden;
     display: none;
 }
@@ -245,7 +245,8 @@ img {
 }
 
 .mobile-nav-active .mobile-nav-toggle i {
-    color: #fff;
+    color: #673ab7;
+    right: 10px;
 }
 
 #topbar {
@@ -285,6 +286,10 @@ img {
 
 #topbar .social-links a:hover {
     color: #673ab7;
+}
+
+#topbar .social-links .dark-icon a {
+    color: #fff;
 }
 
 
