@@ -1,0 +1,86 @@
+.dark {
+    background-color: black;
+    color: white;
+}
+
+.dark .member-info {
+    background-color: black;
+}
+
+.dark .member-info h4 {
+    color: white;
+}
+
+.dark .team {
+    background-color: #111;
+    color: black;
+}
+
+.dark .team strong,
+.dark .single-game-review-area,
+.dark .single-game-review-area .monthly-picks-area,
+.dark .single-game-review-area .monthly-picks-area strong,
+.dark .single-game-review-area .monthly-picks-area .game-title {
+    background-color: #111;
+    color: white;
+}
+
+.dark .about-us strong {
+    color: white;
+}
+
+.dark #footer {
+    color: #222;
+    background-color: black;
+}
+
+.dark #footer .footer-newsletter form input[type="email"] {
+    background-color: #222;
+    color: white;
+}
+
+.dark .nav-menu .drop-down ul a {
+    background-color: black;
+    color: white;
+    font-weight: bolder;
+}
+
+.dark #topbar {
+    background-color: black;
+}
+
+.dark .nav-menu .drop-down ul {
+    background-color: black;
+    color: white;
+    border: #111 1px solid;
+}
+
+.dark #header,
+.dark .nav-menu ul a,
+.dark .preloader {
+    background-color: black;
+    color: white;
+}
+
+.dark #footer .social-links a {
+    color: white;
+}
+
+.dark #footer .credits a {
+    color: white;
+}
+
+.dark #footer .footer-top .footer-links ul a {
+    color: white;
+}
+
+.dark #topbar .contact-info a,
+.dark #topbar .social-links i,
+.dark .mobile-nav a {
+    color: white;
+}
+
+.dark .mobile-nav {
+    background-color: black;
+    color: white;
+}

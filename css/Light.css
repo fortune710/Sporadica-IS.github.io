@@ -1,0 +1,62 @@
+.light {
+    background-color: #fff;
+    color: black;
+}
+
+.light .member-info {
+    background-color: rgb(245, 245, 245);
+}
+
+.light .member-info h4 {
+    color: black;
+}
+
+.light .team {
+    background-color: #eee;
+    color: black;
+}
+
+.light .team strong,
+.light.row {
+    background-color: #eee;
+    color: black;
+}
+
+.light #footer {
+    background-color: white;
+    color: black;
+}
+
+.light #footer .footer-newsletter form input[type="email"] {
+    background-color: #eee;
+    color: black;
+}
+
+.light .nav-menu .drop-down ul a {
+    background-color: white;
+    color: black;
+    font-weight: bolder;
+}
+
+.light #topbar {
+    background-color: #fff;
+}
+
+.light .nav-menu .drop-down ul {
+    background-color: white;
+    color: black;
+    border: #eee 1px solid;
+}
+
+.light .mobile-nav a {
+    color: black;
+}
+
+.light .mobile-nav {
+    background-color: white;
+}
+
+.light .preloader {
+    background-color: white;
+    color: black;
+}
