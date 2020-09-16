@@ -14,9 +14,12 @@
     <!-- Stylesheet -->
     <link rel="stylesheet" href="style.css">
     <link rel="stylesheet" href="css/icofont/icofont.min.css">
+    <link rel="stylesheet" href="css/Dark.css" media="(prefers-color-scheme: dark)">
+    <link rel="stylesheet" href="css/Light.css" media="(prefers-color-scheme: light)">
+
 </head>
 
-<body>
+<body class="light dark">
     <!-- Preloader -->
     <div class="preloader d-flex align-items-center justify-content-center">
         <div class="spinner">
@@ -25,55 +28,46 @@
             <div class="bounce3"></div>
         </div>
     </div>
+
     <!-- ======= Top Bar ======= -->
-    <section id="topbar" class="d-none d-lg-block">
+    <header id="topbar" class="d-none d-lg-block">
         <div class="container clearfix">
             <div class="contact-info float-left">
                 <i class="icofont-envelope"></i><a href="mailto:sporadicainteractive@gmail.com">sporadicainteractive@gmail.com</a>
-                <i class="icofont-phone"></i> <span style="color: white;">+234 808 693 4518</span>
+                <i class="icofont-phone"></i> <span>+234 808 693 4518</span>
             </div>
-            <div class="social-links float-right">
-                <a href="#" data-toggle="tooltip" data-placement="top" title="Dark/Normal Mode" class="toDark" onclick="darkMode()">🌓</a>
-                <a href="https://twitter.com/SporadicaS" class="twitter"><i class="icofont-twitter"></i></a>
-                <a href="https://web.facebook.com/Sporadica-Interactive-Studios-102400844789168" class="facebook"><i class="icofont-facebook"></i></a>
-                <a href="https://www.instagram.com/sporadicastudios" class="instagram"><i class="icofont-instagram"></i></a>
 
-                <a href="https://github.com/Sporadica-IS" class="linkedin"><i class="icofont-github"></i></a>
+            <div class="social-links float-right">
+
+                <a href="https://twitter.com/SporadicaS" target="_blank" class="twitter"><i class="icofont-twitter"></i></a>
+                <a href="https://web.facebook.com/Sporadica-Interactive-Studios-102400844789168" target="_blank" class="facebook"><i class="icofont-facebook"></i></a>
+                <a href="https://www.instagram.com/sporadicastudios" target="_blank" class="instagram"><i class="icofont-instagram"></i></a>
+
+                <a href="https://github.com/Sporadica-IS" target="_blank" class="linkedin"><i class="icofont-github"></i></a>
             </div>
         </div>
-    </section>
+
+    </header>
 
     <!-- ======= Header ======= -->
-    <header id="header" style="background:#000000;">
+    <div id="header">
         <div class="container">
 
             <div class="logo float-left">
                 <h1 class="text-light">
                     <a href="index.html"><img src="img/sporadica.logo.transparent.png"></a>
                 </h1>
+
                 <!-- Uncomment below if you prefer to use an image logo -->
                 <!-- <a href="index.html"><img src="assets/img/logo.png" alt="" class="img-fluid"></a>-->
             </div>
 
             <nav class="nav-menu float-right d-none d-lg-block">
                 <ul>
-                    <li><a href="index.html">Home</a></li>
+                    <li class="active"><a href="index.html">Home</a></li>
+                    <li><a href="#contact">News feed</a></li>
 
-                    <li class="drop-down">
-                        <a href="about.html">About Us</a>
-                        <ul>
-                            <li><a href="about.html">Company</a></li>
-                            <li class="drop-down"><a href="#">Team</a>
-                                <ul>
-                                    <li><a href="kayos.html">KΔΥΘS</a></li>
-                                    <li><a href="diktyo.html">δίκτυο</a></li>
-                                    <li class="active"><a href="syntaktik.html">SYNTΔKTÎK</a></li>
-                                </ul>
-                            </li>
 
-                        </ul>
-
-                    </li>
                     <li class="drop-down">
                         <a href="">Games</a>
                         <ul>
@@ -96,152 +90,172 @@
                         </ul>
 
                     </li>
-                    <li><a href="#contact">Contact Us</a></li>
+                    <li class="drop-down">
+                        <a href="">About Us</a>
+                        <ul>
+                            <li><a href="about.html">Company</a></li>
+                            <li class="drop-down"><a href="#">Team</a>
+                                <ul>
+                                    <li><a href="kayos.html">KΔΥΘS</a></li>
+                                    <li><a href="diktyo.html">δίκτυο</a></li>
+                                    <li><a href="syntaktik.html">SYNTΔKTÎK</a></li>
+                                </ul>
+                            </li>
+
+                        </ul>
+
+                    </li>
+
                 </ul>
             </nav>
-            <!-- .nav-menu -->
+
 
         </div>
-    </header>
+    </div>
+
+
+
+
     <!-- ##### Header Area End ##### -->
+    <!-- ##### Breadcrumb Area Start ##### -->
+    <section id="breadcrumbs" class="breadcrumbs">
+        <div class="container">
 
-
-
-    <main>
-        <!-- ##### Header Area End ##### -->
-        <!-- ##### Breadcrumb Area Start ##### -->
-        <section id="breadcrumbs" class="breadcrumbs">
-            <div class="container">
-
-                <div class="d-flex justify-content-between align-items-center">
-                    <br>
-                    <br>
-
-                </div>
+            <div class="d-flex justify-content-between align-items-center">
+                <br>
+                <br>
 
             </div>
-        </section>
-        <!-- ##### Breadcrumb Area End ##### -->
-        <!-- ##### Single Game Review Area Start ##### -->
-        <section id="about-us" class="about-us">
-            <div class="container" data-aos="fade-up">
-                <div class="section-title" data-aos="fade-up">
-                    <h2>WELCOME TO <strong class="toDark">SYNTΔKTÎK</strong></h2>
-                    <p class="toDark" style="font-size: 15px;">Magnam dolores commodi suscipit. Necessitatibus eius consequatur ex aliquid fuga eum quidem. Sit sint consectetur velit. Quisquam quos quisquam cupiditate. Et nemo qui impedit suscipit alias ea. Quia fugiat sit in iste officiis commodi
-                        quidem hic quas.</p>
+
+        </div>
+    </section>
+    <!-- ##### Breadcrumb Area End ##### -->
+    <!-- ##### Single Game Review Area Start ##### -->
+    <section id="about-us" class="about-us">
+        <div class="container" data-aos="fade-up">
+            <div class="section-title" data-aos="fade-up">
+                <h2>WELCOME TO <strong class="toDark">SYNTΔKTÎK</strong></h2>
+                <p class="toDark" style="font-size: 15px;">Magnam dolores commodi suscipit. Necessitatibus eius consequatur ex aliquid fuga eum quidem. Sit sint consectetur velit. Quisquam quos quisquam cupiditate. Et nemo qui impedit suscipit alias ea. Quia fugiat sit in iste officiis commodi
+                    quidem hic quas.</p>
+            </div>
+            <div class="row content">
+                <div class="col-lg-6" data-aos="fade-right">
+
+                    <h3><img src="img/team/syntaktik/syntaktik-ultrablack.jpg"></h3>
                 </div>
-                <div class="row content">
-                    <div class="col-lg-6" data-aos="fade-right">
+                <div class="col-lg-6 pt-4 pt-lg-0" data-aos="fade-left">
+                    <h1 style="font-size: 25px;" class="toDark">
+                        ABOUT US
+                    </h1>
 
-                        <h3><img src="img/team/syntaktik/syntaktik-ultrablack.jpg"></h3>
-                    </div>
-                    <div class="col-lg-6 pt-4 pt-lg-0" data-aos="fade-left">
-                        <h1 style="font-size: 25px;" class="toDark">
-                            ABOUT US
-                        </h1>
-
-                        <p class="toDark" style="font-size: 20px;">
-                            Magnam dolores commodi suscipit. Necessitatibus eius consequatur ex aliquid fuga eum quidem. Sit sint consectetur velit. Quisquam quos quisquam cupiditate. Et nemo qui impedit suscipit alias ea. Quia fugiat sit in iste officiis commodi quidem hic quas.
-                        </p>
-                        <br>
+                    <p class="toDark" style="font-size: 20px;">
+                        Magnam dolores commodi suscipit. Necessitatibus eius consequatur ex aliquid fuga eum quidem. Sit sint consectetur velit. Quisquam quos quisquam cupiditate. Et nemo qui impedit suscipit alias ea. Quia fugiat sit in iste officiis commodi quidem hic quas.
+                    </p>
+                    <br>
 
 
-                    </div>
                 </div>
+            </div>
+
+        </div>
+    </section>
+
+    <section class="single-game-review-area section-padding-100">
+        <div class="container">
+
+            <div class="row align-items-center">
+                <!-- *** Review Area *** -->
+
+                <!-- ##### Monthly Picks Area Start ##### -->
+                <section class="monthly-picks-area section-padding-10 toDark">
+                    <div class="container toDark">
+                        <div class="row toDark">
+                            <div class="col-12 toDark">
+                            </div>
+                        </div>
+                    </div>
+                    <div class="container toDark">
+                        <div class="row toDark">
+                            <div class="col-12 toDark section-title">
+                                <!-- Title -->
+                                <h2>The <strong class="toDark">team</strong></h2>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="tab-content wow fadeInUp toDark" data-wow-delay="500ms" id="myTabContent">
+                        <div class="tab-pane fade show active toDark" id="popular" role="tabpanel" aria-labelledby="popular-tab">
+                            <!-- Popular Games Slideshow -->
+                            <div class="popular-games-slideshow owl-carousel toDark">
+                                <!-- Single Games -->
+                                <div class="single-games-slide">
+                                    <img src="img/team/diktyo/charles-arowolo.jpg" alt="">
+                                    <div class="slide-text">
+                                        <a href="#" class="game-title">Charles Arowolo</a>
+                                    </div>
+                                </div>
+                                <!-- Single Games -->
+                                <div class="single-games-slide">
+                                    <img src="img/team/diktyo/destiny-kefas.jpg" alt="">
+                                    <div class="slide-text">
+                                        <a href="#" class="game-title">Destiny Kefas</a>
+                                    </div>
+                                </div>
+                                <!-- Single Games -->
+                                <div class="single-games-slide">
+                                    <img src="img/team/diktyo/fortune-alebiosu .jpg" alt="">
+                                    <div class="slide-text">
+                                        <a href="#" class="game-title">Fortune Alebiosu</a>
+                                    </div>
+                                </div>
+                                <!-- Single Games -->
+
+                                <!-- Single Games -->
+
+                                <!-- Single Games -->
+                                <div class="single-games-slide">
+                                    <img src="img/team/diktyo/stephen-adebambo.jpg" alt="">
+                                    <div class="slide-text">
+                                        <a href="#" class="game-title">Stephen Adebambo</a>
+                                    </div>
+                                </div>
+
+                                <!-- Single Games -->
+                                <div class="single-games-slide">
+                                    <img src="img/team/diktyo/zikora-ogbuagu.jpg" alt="">
+                                    <div class="slide-text">
+                                        <a href="#" class="game-title">Zikora Ogbuagu</a>
+                                    </div>
+                                </div>
+
+                            </div>
+
+                        </div>
+                    </div>
+                </section>
+
 
             </div>
-        </section>
-
-        <section class="single-game-review-area section-padding-100">
-            <div class="container">
-
-                <div class="row align-items-center">
-                    <!-- *** Review Area *** -->
-
-                    <!-- ##### Monthly Picks Area Start ##### -->
-                    <section class="monthly-picks-area section-padding-10 toDark">
-                        <div class="container toDark">
-                            <div class="row toDark">
-                                <div class="col-12 toDark">
-                                </div>
-                            </div>
-                        </div>
-                        <div class="container toDark">
-                            <div class="row toDark">
-                                <div class="col-12 toDark section-title">
-                                    <!-- Title -->
-                                    <h2>The <strong class="toDark">team</strong></h2>
-                                </div>
-                            </div>
-                        </div>
-                        <div class="tab-content wow fadeInUp toDark" data-wow-delay="500ms" id="myTabContent">
-                            <div class="tab-pane fade show active toDark" id="popular" role="tabpanel" aria-labelledby="popular-tab">
-                                <!-- Popular Games Slideshow -->
-                                <div class="popular-games-slideshow owl-carousel toDark">
-                                    <!-- Single Games -->
-                                    <div class="single-games-slide">
-                                        <img src="img/team/diktyo/charles-arowolo.jpg" alt="">
-                                        <div class="slide-text">
-                                            <a href="#" class="game-title">Charles Arowolo</a>
-                                        </div>
-                                    </div>
-                                    <!-- Single Games -->
-                                    <div class="single-games-slide">
-                                        <img src="img/team/diktyo/destiny-kefas.jpg" alt="">
-                                        <div class="slide-text">
-                                            <a href="#" class="game-title">Destiny Kefas</a>
-                                        </div>
-                                    </div>
-                                    <!-- Single Games -->
-                                    <div class="single-games-slide">
-                                        <img src="img/team/diktyo/fortune-alebiosu .jpg" alt="">
-                                        <div class="slide-text">
-                                            <a href="#" class="game-title">Fortune Alebiosu</a>
-                                        </div>
-                                    </div>
-                                    <!-- Single Games -->
-
-                                    <!-- Single Games -->
-
-                                    <!-- Single Games -->
-                                    <div class="single-games-slide">
-                                        <img src="img/team/diktyo/stephen-adebambo.jpg" alt="">
-                                        <div class="slide-text">
-                                            <a href="#" class="game-title">Stephen Adebambo</a>
-                                        </div>
-                                    </div>
-
-                                    <!-- Single Games -->
-                                    <div class="single-games-slide">
-                                        <img src="img/team/diktyo/zikora-ogbuagu.jpg" alt="">
-                                        <div class="slide-text">
-                                            <a href="#" class="game-title">Zikora Ogbuagu</a>
-                                        </div>
-                                    </div>
-
-                                </div>
-
-                            </div>
-                        </div>
-                    </section>
-
-
-
-    </main>
-
+        </div>
+    </section>
     <!-- ##### Monthly Picks Area End ##### -->
     <!-- ##### Footer Area Start ##### -->
-    <footer id="footer" style="background-color: #000000; width: 100%;">
+    <footer id="footer" style=" width: 100%;" class="light dark">
 
-        <div class="footer-top" style="background-color: #000000; width: 100%;">
-            <div class="container" style="background-color: #000000; width: 100%;">
-                <div class="row" style="background-color: #000000; width: 100%;">
+        <div class="footer-top" style=" width: 100%;">
+            <div class="container" style=" width: 100%;">
+                <div class="row" style=" width: 100%;">
 
-                    <div class="col-lg-3 col-md-6 footer-contact" style="background-color: #000000;">
+                    <div class="col-lg-3 col-md-6 footer-contact">
                         <h3 style="color: #7c1bbd">Sporadica Interactive Studios</h3>
                         <p>
                             <strong>Phone:</strong> +234 808 693 4518<br>
                             <strong>Email:</strong> sporadicainteractive@gmail.com<br>
+                            <div class="social-links">
+                                <a href="https://twitter.com/SporadicaS" target="_blank" class="twitter"><i class="icofont-twitter"></i></a>
+                                <a href="https://web.facebook.com/Sporadica-Interactive-Studios-102400844789168" target="_blank" class="facebook"><i class="icofont-facebook"></i></a>
+                                <a href="https://www.instagram.com/sporadicastudios" target="_blank" class="instagram"><i class="icofont-instagram"></i></a>
+                                <a href="https://github.com/Sporadica-IS" target="_blank" class="linkedin"><i class="icofont-github"></i></a>
+                            </div>
                         </p>
                     </div>
 
@@ -289,15 +303,10 @@
                     </script><br/><strong><span>Sporadica Interactive Studios</span></strong>. All Rights Reserved
                 </div>
                 <div class="credits">
-                    Designed by <a href="https://Sporadica-IS.github.io" style="color: #FFFFFF">Sporadica Interactive Studio</a>
+                    Designed by <a href="https://Sporadica-IS.github.io">Sporadica Interactive Studio</a>
                 </div>
             </div>
-            <div class="social-links text-center text-md-right pt-3 pt-md-0">
-                <a href="https://twitter.com/SporadicaS" class="twitter"><i class="bx bxl-twitter"></i></a>
-                <a href="https://web.facebook.com/Sporadica-Interactive-Studios-102400844789168" class="facebook"><i class="bx bxl-facebook"></i></a>
-                <a href="https://www.instagram.com/sporadicastudios" class="instagram"><i class="bx bxl-instagram"></i></a>
-                <a href="https://github.com/Sporadica-IS" class="github"><i class="bx bxl-github"></i></a>
-            </div>
+
         </div>
     </footer>
     <!-- ##### Footer Area End ##### -->

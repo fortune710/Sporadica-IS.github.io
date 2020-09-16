@@ -9,7 +9,7 @@
     <!-- The above 4 meta tags *must* come first in the head; any other head content must come *after* these tags -->
 
     <!-- Title -->
-    <title>Sporadica Interactive Studios</title>
+    <title>Sporadica Interactive Studios Home Page - Offical Site</title>
 
     <!-- Favicon -->
     <link href="img/sporadica.normal.jpg" rel="icon">
@@ -17,10 +17,12 @@
     <!-- Stylesheet -->
     <link rel="stylesheet" href="style.css">
     <link rel="stylesheet" href="css/icofont/icofont.min.css">
+    <link rel="stylesheet" href="css/Dark.css" media="(prefers-color-scheme: dark)">
+    <link rel="stylesheet" href="css/Light.css" media="(prefers-color-scheme: light)">
 
 </head>
 
-<body>
+<body class="light dark">
     <!-- Preloader -->
     <div class="preloader d-flex align-items-center justify-content-center">
         <div class="spinner">
@@ -34,12 +36,12 @@
     <header id="topbar" class="d-none d-lg-block">
         <div class="container clearfix">
             <div class="contact-info float-left">
-                <i class="icofont-envelope"></i><a href="mailto:sporadicainteractive@gmail.com" id = "change">sporadicainteractive@gmail.com</a>
-                <i class="icofont-phone"></i> <span style="color: white;" id = "change">+234 808 693 4518</span>
+                <i class="icofont-envelope"></i><a href="mailto:sporadicainteractive@gmail.com">sporadicainteractive@gmail.com</a>
+                <i class="icofont-phone"></i> <span>+234 808 693 4518</span>
             </div>
 
             <div class="social-links float-right">
-                <div class="float-right dark-icon"> <a href="#" data-toggle="tooltip" data-placement="top" class="toDark" onclick="lightMode()"><i class="icofont-adjust"></i></a></div>
+
                 <a href="https://twitter.com/SporadicaS" target="_blank" class="twitter"><i class="icofont-twitter"></i></a>
                 <a href="https://web.facebook.com/Sporadica-Interactive-Studios-102400844789168" target="_blank" class="facebook"><i class="icofont-facebook"></i></a>
                 <a href="https://www.instagram.com/sporadicastudios" target="_blank" class="instagram"><i class="icofont-instagram"></i></a>
@@ -47,16 +49,18 @@
                 <a href="https://github.com/Sporadica-IS" target="_blank" class="linkedin"><i class="icofont-github"></i></a>
             </div>
         </div>
+
     </header>
 
     <!-- ======= Header ======= -->
-    <div id="header" style="background: #000000;">
+    <div id="header">
         <div class="container">
 
             <div class="logo float-left">
                 <h1 class="text-light">
                     <a href="index.html"><img src="img/sporadica.logo.transparent.png"></a>
                 </h1>
+
                 <!-- Uncomment below if you prefer to use an image logo -->
                 <!-- <a href="index.html"><img src="assets/img/logo.png" alt="" class="img-fluid"></a>-->
             </div>
@@ -107,7 +111,7 @@
 
                 </ul>
             </nav>
-            <!-- .nav-menu -->
+
 
         </div>
     </div>
@@ -125,7 +129,7 @@
                     <div class="carousel-item active" style="background-image: url('img/slide/O969zbQ.jpg');">
                         <div class="carousel-container">
                             <div class="carousel-content container">
-                                <h2 class="animate__animated animate__fadeInDown" id = "change">Welcome to <span>Sporadica Interactive Studios</span></h2>
+                                <h2 class="animate__animated animate__fadeInDown">Welcome to <span>Sporadica Interactive Studios</span></h2>
                                 <p class="animate__animated animate__fadeInUp">Ut velit est quam dolor ad a aliquid qui aliquid. Sequi ea ut et est quaerat sequi nihil ut aliquam. Occaecati alias dolorem mollitia ut. Similique ea voluptatem. Esse doloremque accusamus repellendus deleniti vel. Minus
                                     et tempore modi architecto.</p>
                                 <a href="#about" class="btn-get-started animate__animated animate__fadeInUp scrollto">Read More</a>
@@ -137,7 +141,7 @@
                     <div class="carousel-item" style="background-image: url('img/slide/slide-1.jpg');">
                         <div class="carousel-container">
                             <div class="carousel-content container">
-                                <h2 class="animate__animated animate__fadeInDown" id = "change">Lorem Ipsum Dolor</h2>
+                                <h2 class="animate__animated animate__fadeInDown">Lorem Ipsum Dolor</h2>
                                 <p class="animate__animated animate__fadeInUp">Ut velit est quam dolor ad a aliquid qui aliquid. Sequi ea ut et est quaerat sequi nihil ut aliquam. Occaecati alias dolorem mollitia ut. Similique ea voluptatem. Esse doloremque accusamus repellendus deleniti vel. Minus
                                     et tempore modi architecto.</p>
                                 <a href="#about" class="btn-get-started animate__animated animate__fadeInUp scrollto">Read More</a>
@@ -149,7 +153,7 @@
                     <div class="carousel-item" style="background-image: url('img/slide/slide-2.jpg');">
                         <div class="carousel-container">
                             <div class="carousel-content container">
-                                <h2 class="animate__animated animate__fadeInDown" id = "change">Sequi ea ut et est quaerat</h2>
+                                <h2 class="animate__animated animate__fadeInDown">Sequi ea ut et est quaerat</h2>
                                 <p class="animate__animated animate__fadeInUp">Ut velit est quam dolor ad a aliquid qui aliquid. Sequi ea ut et est quaerat sequi nihil ut aliquam. Occaecati alias dolorem mollitia ut. Similique ea voluptatem. Esse doloremque accusamus repellendus deleniti vel. Minus
                                     et tempore modi architecto.</p>
                                 <a href="#about" class="btn-get-started animate__animated animate__fadeInUp scrollto">Read More</a>
@@ -160,12 +164,12 @@
                 </div>
 
                 <a class="carousel-control-prev" href="#heroCarousel" role="button" data-slide="prev">
-                    <span class="carousel-control-prev-icon icofont-rounded-left" aria-hidden="true" id = "change"></span>
-                    <span class="sr-only" id = "change">Previous</span>
+                    <span class="carousel-control-prev-icon icofont-rounded-left" aria-hidden="true"></span>
+                    <span class="sr-only">Previous</span>
                 </a>
                 <a class="carousel-control-next" href="#heroCarousel" role="button" data-slide="next">
-                    <span class="carousel-control-next-icon icofont-rounded-right" aria-hidden="true" id = "change"></span>
-                    <span class="sr-only" id = "change">Next</span>
+                    <span class="carousel-control-next-icon icofont-rounded-right" aria-hidden="true"></span>
+                    <span class="sr-only">Next</span>
                 </a>
 
             </div>
@@ -173,13 +177,13 @@
     </section>
 
     <!-- ##### Footer Area Start ##### -->
-    <footer id="footer" style="background-color: #000000; width: 100%;">
+    <footer id="footer" style=" width: 100%;" class="light dark">
 
-        <div class="footer-top" style="background-color: #000000; width: 100%;">
-            <div class="container" style="background-color: #000000; width: 100%;">
-                <div class="row" style="background-color: #000000; width: 100%;">
+        <div class="footer-top" style=" width: 100%;">
+            <div class="container" style=" width: 100%;">
+                <div class="row" style=" width: 100%;">
 
-                    <div class="col-lg-3 col-md-6 footer-contact" style="background-color: #000000;">
+                    <div class="col-lg-3 col-md-6 footer-contact">
                         <h3 style="color: #7c1bbd">Sporadica Interactive Studios</h3>
                         <p>
                             <strong>Phone:</strong> +234 808 693 4518<br>
@@ -231,15 +235,14 @@
 
             <div class="mr-md-auto text-center text-md-left">
                 <div class="copyright">
-                   <span id = "change"> Copyright &copy;
+                    Copyright &copy;
                     <script>
                         document.write(new Date().getFullYear());
-                       </script><br/></span><strong><span id = "change">Sporadica Interactive Studios</span></strong>. All Rights Reserved
+                    </script><br/><strong><span>Sporadica Interactive Studios</span></strong>. All Rights Reserved
                 </div>
                 <div class="credits">
-                    Designed by <a href="https://Sporadica-IS.github.io" style="color: #FFFFFF" id = "change">Sporadica Interactive Studio</a>
+                    Designed by <a href="https://Sporadica-IS.github.io">Sporadica Interactive Studio</a>
                 </div>
-                
             </div>
 
         </div>
@@ -259,17 +262,6 @@
     <script src="js/active.js"></script>
     <script src="js/dark-mode.js"></script>
     <script src="js/main.js"></script>
-    <script>
-         function lightMode(){
-        $(function(){
-    
-        $("#header,#footer,#topbar").css("background","white");
-        $("i,#change,#footer a,carousel-content container span,p").css("color","black");
-        $(".container,.footer-top,.row").css("background","white");
-    
-});
-         }
-    </script>
 
 </body>
 
