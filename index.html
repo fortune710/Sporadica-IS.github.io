@@ -34,8 +34,8 @@
     <header id="topbar" class="d-none d-lg-block">
         <div class="container clearfix">
             <div class="contact-info float-left">
-                <i class="icofont-envelope"></i><a href="mailto:sporadicainteractive@gmail.com">sporadicainteractive@gmail.com</a>
-                <i class="icofont-phone"></i> <span style="color: white;">+234 808 693 4518</span>
+                <i class="icofont-envelope"></i><a href="mailto:sporadicainteractive@gmail.com" id = "change">sporadicainteractive@gmail.com</a>
+                <i class="icofont-phone"></i> <span style="color: white;" id = "change">+234 808 693 4518</span>
             </div>
 
             <div class="social-links float-right">
@@ -263,7 +263,7 @@
         $(function(){
     $("#darken").click(function(){
         $("#header,#footer,#topbar").css("background","white");
-        $("p,h1,span,a").css("color","black");
+        $("i,#change,#footer a").css("color","black");
         $(".container,.footer-top,.row").css("background","white");
     });
 });
