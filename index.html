@@ -39,7 +39,7 @@
             </div>
 
             <div class="social-links float-right">
-                <div class="float-right dark-icon"> <a href="#" data-toggle="tooltip" data-placement="top" class="toDark" onclick="darkMode()"><i class="icofont-adjust"></i></a></div>
+                <div class="float-right dark-icon"> <a href="#" data-toggle="tooltip" data-placement="top" class="toDark" onclick="lightMode()"><i class="icofont-adjust"></i></a></div>
                 <a href="https://twitter.com/SporadicaS" target="_blank" class="twitter"><i class="icofont-twitter"></i></a>
                 <a href="https://web.facebook.com/Sporadica-Interactive-Studios-102400844789168" target="_blank" class="facebook"><i class="icofont-facebook"></i></a>
                 <a href="https://www.instagram.com/sporadicastudios" target="_blank" class="instagram"><i class="icofont-instagram"></i></a>
@@ -239,7 +239,7 @@
                 <div class="credits">
                     Designed by <a href="https://Sporadica-IS.github.io" style="color: #FFFFFF" id = "change">Sporadica Interactive Studio</a>
                 </div>
-                <button id = "darken">DARK</button>
+                
             </div>
 
         </div>
@@ -261,11 +261,11 @@
     <script src="js/main.js"></script>
     <script>
         $(function(){
-    $("#darken").click(function(){
+    function lightMode(){
         $("#header,#footer,#topbar").css("background","white");
         $("i,#change,#footer a,carousel-content container span,p").css("color","black");
         $(".container,.footer-top,.row").css("background","white");
-    });
+    }
 });
     </script>
 
