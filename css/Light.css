@@ -4,7 +4,7 @@
 }
 
 .light .member-info {
-    background-color: rgb(245, 245, 245);
+    background-color: white;
 }
 
 .light .member-info h4 {
@@ -17,6 +17,7 @@
 }
 
 .light .team strong,
+.light .team p,
 .light.row {
     background-color: #eee;
     color: black;
@@ -58,5 +59,35 @@
 
 .light .preloader {
     background-color: white;
+    color: black;
+}
+
+.light #footer .footer-links h4 {
+    color: black;
+}
+
+.light #footer .credits a {
+    color: black;
+}
+
+.light #footer .footer-top .footer-links ul a {
+    color: rgba(17, 17, 17, 0.836);
+}
+
+.light #footer .footer-newsletter p {
+    color: rgba(17, 17, 17, 0.836);
+}
+
+.light #footer .footer-newsletter h4 {
+    color: rgba(17, 17, 17, 0.836);
+}
+
+.light #footer .footer-top .footer-contact p {
+    color: rgba(17, 17, 17, 0.836)
+}
+
+.light p,
+.light h1,
+.light strong {
     color: black;
 }

@@ -7,7 +7,9 @@
     background-color: black;
 }
 
-.dark .member-info h4 {
+.dark .member-info h4,
+.dark p,
+.dark h1 {
     color: white;
 }
 
@@ -29,12 +31,13 @@
     color: white;
 }
 
-.dark #footer {
-    color: #222;
+.dark #footer,
+.dark #footer .footer-top {
+    color: #fff;
     background-color: black;
 }
 
-.dark #footer .footer-newsletter form input[type="email"] {
+.dark .dark #footer .footer-newsletter form input[type="email"] {
     background-color: #222;
     color: white;
 }
@@ -62,7 +65,8 @@
     color: white;
 }
 
-.dark #footer .social-links a {
+.dark #footer .social-links a,
+.dark #footer .footer-links h4 {
     color: white;
 }
 
@@ -71,7 +75,15 @@
 }
 
 .dark #footer .footer-top .footer-links ul a {
-    color: white;
+    color: rgba(238, 238, 238, 0.829);
+}
+
+.dark #footer .footer-newsletter p {
+    color: rgba(238, 238, 238, 0.829);
+}
+
+.dark #footer .footer-newsletter h4 {
+    color: rgba(238, 238, 238, 0.829);
 }
 
 .dark #topbar .contact-info a,
@@ -83,4 +95,8 @@
 .dark .mobile-nav {
     background-color: black;
     color: white;
+}
+
+.dark #footer .footer-top .footer-contact p {
+    color: rgba(238, 238, 238, 0.829);
 }
