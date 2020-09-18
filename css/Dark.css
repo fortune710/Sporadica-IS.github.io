@@ -1,21 +1,26 @@
 .dark {
-    background-color: black;
-    color: white;
+    background-color: #000000;
+    color: #FFFFFF;
+}
+
+.logo-header {
+    -webkit-filter: invert(100%);
+    filter: invert(100%);
 }
 
 .dark .member-info {
-    background-color: black;
+    background-color: #000000;
 }
 
 .dark .member-info h4,
 .dark p,
 .dark h1 {
-    color: white;
+    color: #FFFFFF;
 }
 
 .dark .team {
-    background-color: #111;
-    color: black;
+    background-color: #050505;
+    color: #000000;
 }
 
 .dark .team strong,
@@ -23,55 +28,55 @@
 .dark .single-game-review-area .monthly-picks-area,
 .dark .single-game-review-area .monthly-picks-area strong,
 .dark .single-game-review-area .monthly-picks-area .game-title {
-    background-color: #111;
-    color: white;
+    background-color: #050505;
+    color: #FFFFFF;
 }
 
 .dark .about-us strong {
-    color: white;
+    color: #FFFFFF;
 }
 
 .dark #footer,
 .dark #footer .footer-top {
     color: #fff;
-    background-color: black;
+    background-color: #000000;
 }
 
 .dark .dark #footer .footer-newsletter form input[type="email"] {
-    background-color: #222;
-    color: white;
+    background-color: #110f0f;
+    color: #FFFFFF;
 }
 
 .dark .nav-menu .drop-down ul a {
-    background-color: black;
-    color: white;
+    background-color: #000000;
+    color: #FFFFFF;
     font-weight: bolder;
 }
 
 .dark #topbar {
-    background-color: black;
+    background-color: #000000;
 }
 
 .dark .nav-menu .drop-down ul {
-    background-color: black;
-    color: white;
-    border: #111 1px solid;
+    background-color: #000000;
+    color: #FFFFFF;
+    border: #050505 1px solid;
 }
 
 .dark #header,
 .dark .nav-menu ul a,
 .dark .preloader {
-    background-color: black;
-    color: white;
+    background-color: #000000;
+    color: #FFFFFF;
 }
 
 .dark #footer .social-links a,
 .dark #footer .footer-links h4 {
-    color: white;
+    color: #FFFFFF;
 }
 
 .dark #footer .credits a {
-    color: white;
+    color: #FFFFFF;
 }
 
 .dark #footer .footer-top .footer-links ul a {
@@ -89,12 +94,12 @@
 .dark #topbar .contact-info a,
 .dark #topbar .social-links i,
 .dark .mobile-nav a {
-    color: white;
+    color: #FFFFFF;
 }
 
 .dark .mobile-nav {
-    background-color: black;
-    color: white;
+    background-color: #000000;
+    color: #FFFFFF;
 }
 
 .dark #footer .footer-top .footer-contact p {
