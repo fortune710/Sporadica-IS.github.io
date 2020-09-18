@@ -3,33 +3,9 @@
     color: black;
 }
 
-.light .member-info {
-    background-color: white;
-}
-
-.light .member-info h4 {
-    color: black;
-}
-
-.light .team {
-    background-color: #eee;
-    color: black;
-}
-
-.light .team strong,
-.light .team p,
-.light.row {
-    background-color: #eee;
-    color: black;
-}
-
-.light #footer {
-    background-color: white;
-    color: black;
-}
-
-.light #footer .footer-newsletter form input[type="email"] {
-    background-color: #eee;
+.light p,
+.light h1,
+.light strong {
     color: black;
 }
 
@@ -62,6 +38,36 @@
     color: black;
 }
 
+.light .team {
+    background-color: #eee;
+    color: black;
+}
+
+.light .team strong,
+.light .team p,
+.light.row {
+    background-color: #eee;
+    color: black;
+}
+
+.light .member-info {
+    background-color: white;
+}
+
+.light .member-info h4 {
+    color: black;
+}
+
+.light #footer {
+    background-color: white;
+    color: black;
+}
+
+.light #footer .footer-newsletter form input[type="email"] {
+    background-color: #eee;
+    color: black;
+}
+
 .light #footer .footer-links h4 {
     color: black;
 }
@@ -84,10 +90,4 @@
 
 .light #footer .footer-top .footer-contact p {
     color: rgba(17, 17, 17, 0.836)
-}
-
-.light p,
-.light h1,
-.light strong {
-    color: black;
 }
