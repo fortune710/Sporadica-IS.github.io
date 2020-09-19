@@ -1,79 +1,84 @@
 .light {
-    background-color: #fff;
-    color: black;
+    background-color: #FFFFFF;
+    color: #000000;
+}
+
+.logo-header {
+    -webkit-filter: invert(0%);
+    filter: invert(0%);
 }
 
 .light p,
 .light h1,
 .light strong {
-    color: black;
+    color: #000000;
 }
 
 .light .nav-menu .drop-down ul a {
-    background-color: white;
-    color: black;
+    background-color: #FFFFFF;
+    color: #000000;
     font-weight: bolder;
 }
 
 .light #topbar {
-    background-color: #fff;
+    background-color: #FFFFFF;
 }
 
 .light .nav-menu .drop-down ul {
-    background-color: white;
-    color: black;
+    background-color: #FFFFFF;
+    color: #000000;
     border: #eee 1px solid;
 }
 
 .light .mobile-nav a {
-    color: black;
+    color: #000000;
 }
 
 .light .mobile-nav {
-    background-color: white;
+    background-color: #FFFFFF;
 }
 
 .light .preloader {
-    background-color: white;
-    color: black;
+    background-color: #FFFFFF;
+    color: #000000;
 }
 
 .light .team {
     background-color: #eee;
-    color: black;
+    color: #000000;
 }
 
 .light .team strong,
 .light .team p,
 .light.row {
     background-color: #eee;
-    color: black;
+    color: #000000;
 }
 
 .light .member-info {
-    background-color: white;
+    background-color: #FFFFFF;
 }
 
 .light .member-info h4 {
-    color: black;
+    color: #000000;
 }
 
 .light #footer {
-    background-color: white;
-    color: black;
+    background-color: #FFFFFF;
+    color: #000000;
 }
 
 .light #footer .footer-newsletter form input[type="email"] {
     background-color: #eee;
-    color: black;
+    color: #000000;
 }
 
 .light #footer .footer-links h4 {
-    color: black;
+    color: #000000;
 }
 
 .light #footer .credits a {
-    color: black;
+    color: #000000;
 }
 
 .light #footer .footer-top .footer-links ul a {
