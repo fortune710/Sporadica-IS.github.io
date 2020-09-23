@@ -1,5 +1,5 @@
 .dark {
-    background-color: #000000;
+    background-color: #050505;
     color: #FFFFFF;
 }
 
@@ -28,8 +28,34 @@
     border-radius: 50px;
 }
 
+
+/* Neumorphism */
+
+.neo {
+    margin-bottom: 20px;
+    overflow: hidden;
+    color: var(--color);
+    background: var(--background-color);
+    box-shadow: 0px 2px 15px rgba(252, 250, 250, 0.3);
+    border-radius: 50px;
+}
+
+.neo-2 {
+    margin-bottom: 20px;
+    overflow: hidden;
+    color: var(--color);
+    background: var(--background-color);
+    box-shadow: 0px 2px 15px rgba(252, 252, 252, 0.3);
+    border-radius: 30px;
+}
+
+.neo-padding {
+    padding-left: 50px;
+    padding-right: 50px;
+}
+
 .dark .member-info {
-    background-color: #000000;
+    background-color: #050505;
 }
 
 .dark .member-info h4,
@@ -40,7 +66,7 @@
 
 .dark .team {
     background-color: #050505;
-    color: #000000;
+    color: #050505;
 }
 
 .dark .team strong,
@@ -59,7 +85,7 @@
 .dark #footer,
 .dark #footer .footer-top {
     color: #fff;
-    background-color: #000000;
+    background-color: #050505;
 }
 
 .dark .dark #footer .footer-newsletter form input[type="email"] {
@@ -68,17 +94,17 @@
 }
 
 .dark .nav-menu .drop-down ul a {
-    background-color: #000000;
+    background-color: #050505;
     color: #FFFFFF;
     font-weight: bolder;
 }
 
 .dark #topbar {
-    background-color: #000000;
+    background-color: #050505;
 }
 
 .dark .nav-menu .drop-down ul {
-    background-color: #000000;
+    background-color: #050505;
     color: #FFFFFF;
     border: #050505 1px solid;
 }
@@ -86,7 +112,7 @@
 .dark #header,
 .dark .nav-menu ul a,
 .dark .preloader {
-    background-color: #000000;
+    background-color: #050505;
     color: #FFFFFF;
 }
 
@@ -118,7 +144,7 @@
 }
 
 .dark .mobile-nav {
-    background-color: #000000;
+    background-color: #050505;
     color: #FFFFFF;
 }
 
