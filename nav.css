@@ -59,7 +59,7 @@ img {
 .nav-menu a:hover,
 .nav-menu .active>a,
 .nav-menu li:hover>a {
-    color: #673ab7;
+    color: #7c1bbd;
     text-decoration: none;
 }
 
@@ -96,7 +96,7 @@ img {
 .nav-menu .drop-down ul a:hover,
 .nav-menu .drop-down ul .active>a,
 .nav-menu .drop-down ul li:hover>a {
-    color: #673ab7;
+    color: #7c1bbd;
 }
 
 .nav-menu .drop-down>a:after {
@@ -169,7 +169,7 @@ img {
 .mobile-nav a:hover,
 .mobile-nav .active>a,
 .mobile-nav li:hover>a {
-    color: #673ab7;
+    color: #7c1bbd;
     text-decoration: none;
 }
 
@@ -214,7 +214,7 @@ img {
 }
 
 .mobile-nav-toggle i {
-    color: #673ab7;
+    color: #7c1bbd;
 }
 
 .mobile-nav-overly {
@@ -238,7 +238,7 @@ img {
 }
 
 .mobile-nav-active .mobile-nav-toggle i {
-    color: #673ab7;
+    color: #7c1bbd;
     right: 10px;
 }
 
@@ -253,11 +253,11 @@ img {
 }
 
 #topbar .contact-info a:hover {
-    color: #673ab7;
+    color: #7c1bbd;
 }
 
 #topbar .contact-info i {
-    color: #673ab7;
+    color: #7c1bbd;
     padding: 4px;
 }
 
@@ -274,7 +274,7 @@ img {
 }
 
 #topbar .social-links a:hover {
-    color: #673ab7;
+    color: #7c1bbd;
 }
 
 #topbar .social-links .dark-icon a {
