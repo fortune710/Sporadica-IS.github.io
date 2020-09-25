@@ -9,7 +9,7 @@
 /* :: 2.0 Import All CSS */
 
 @import url(css/bootstrap.min.css);
-@import url(css/classy-nav.css);
+@import url(css/nav.css);
 @import url(css/owl.carousel.min.css);
 @import url(css/animate.css);
 @import url(css/magnific-popup.css);
@@ -186,6 +186,15 @@ img {
 
 
 /* Neumorphism */
+
+.neo-carousel {
+    margin-bottom: 20px;
+    overflow: hidden;
+    color: var(--color);
+    background: var(--background-color);
+    /* box-shadow: 0px 2px 15px rgb(0, 0, 0); */
+    border-radius: 50px;
+}
 
 .neo {
     margin-bottom: 20px;
