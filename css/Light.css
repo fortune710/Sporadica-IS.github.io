@@ -96,3 +96,7 @@
 .light #footer .footer-top .footer-contact p {
     color: rgba(17, 17, 17, 0.836)
 }
+
+.light .blog-section {
+    background: #f0f4f8;
+}

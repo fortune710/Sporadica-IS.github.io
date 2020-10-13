@@ -1,0 +1,215 @@
+/* Permalink - use to edit and share this gradient: http://colorzilla.com/gradient-editor/#501755+0,2d1854+100 */
+
+
+/* Old browsers */
+
+
+/* FF3.6-15 */
+
+
+/* IE6-9 fallback on horizontal gradient */
+
+.blog-section .section-title {
+    margin-bottom: 25px;
+}
+
+.blog-section .section-title span {
+    color: #673ab7;
+}
+
+.blog-filter {
+    list-style: none;
+    display: block;
+}
+
+.blog-filter li {
+    display: inline-block;
+}
+
+.blog-filter li a {
+    display: block;
+    color: #fff;
+    padding: 16px 36px;
+    font-size: 16px;
+    font-weight: 700;
+    background: #673ab7;
+    line-height: 1.1;
+    margin-right: 7px;
+    -webkit-transition: all 0.3s;
+    -o-transition: all 0.3s;
+    transition: all 0.3s;
+    margin-bottom: 10px;
+}
+
+.blog-filter li a:hover {
+    background: #b01ba5;
+}
+
+.blog-item {
+    margin-top: 86px;
+}
+
+.blog-item .blog-thumb {
+    width: 362px;
+    float: left;
+    margin-right: 30px;
+}
+
+.blog-item .text-box {
+    overflow: hidden;
+}
+
+.blog-item .text-box p {
+    margin-bottom: 42px;
+}
+
+.widget-item {
+    margin-bottom: 85px;
+}
+
+.widget-item:last-child {
+    margin-bottom: 0;
+}
+
+.widget-item .widget-topic {
+    color: #ffffff;
+    text-transform: uppercase;
+    font-weight: 700;
+    font-style: italic;
+    padding-left: 38px;
+    margin-bottom: 48px;
+}
+
+.widget-item .widget-title {
+    color: #000000;
+    text-transform: uppercase;
+    font-weight: 700;
+    font-style: italic;
+    padding-left: 38px;
+    margin-bottom: 48px;
+}
+
+.trending-widget .tw-item {
+    margin-bottom: 38px;
+}
+
+.trending-widget .tw-item:last-child {
+    margin-bottom: 0;
+}
+
+.trending-widget .tw-thumb {
+    float: left;
+    margin-right: 17px;
+    overflow: hidden;
+}
+
+.trending-widget .tw-text .tw-meta {
+    color: #000000;
+    font-size: 12px;
+    font-weight: 500;
+    margin-bottom: 7px;
+}
+
+.trending-widget .tw-text .tw-meta a {
+    color: #673ab7;
+}
+
+.trending-widget .tw-text h5 {
+    font-size: 18px;
+    color: #000000;
+    line-height: 1.5;
+}
+
+.categories-widget {
+    background: #673ab7;
+    padding: 55px 0 25px;
+}
+
+.categories-widget ul {
+    list-style: none;
+    padding: 0 38px;
+}
+
+.categories-widget ul li {
+    display: block;
+}
+
+.categories-widget ul li a {
+    display: inline-block;
+    position: relative;
+    font-size: 16px;
+    color: #ffffff;
+    font-weight: 500;
+    margin-bottom: 15px;
+    padding-right: 19px;
+    -webkit-transition: all 0.2s;
+    -o-transition: all 0.2s;
+    transition: all 0.2s;
+    background-image: url("../img/icons/double-arrow.png");
+    background-repeat: no-repeat;
+    background-position: right -120% center;
+    background-size: 11px;
+}
+
+.categories-widget ul li a:hover {
+    background-position: right center;
+}
+
+.search-widget {
+    position: relative;
+}
+
+.search-widget input {
+    width: 100%;
+    height: 40px;
+    border: none;
+    border-bottom: 2px solid #673ab7;
+    background: none;
+    padding-right: 60px;
+    color: #fff;
+}
+
+.search-widget button {
+    position: absolute;
+    right: 0;
+    top: 0;
+    color: #b01ba5;
+    font-weight: 700;
+    font-size: 14px;
+    font-style: italic;
+    cursor: pointer;
+    background: none;
+    border: none;
+    text-transform: uppercase;
+}
+
+.latest-comments .lc-item {
+    margin-bottom: 30px;
+}
+
+.latest-comments .lc-item:last-child {
+    margin-bottom: 0;
+}
+
+.latest-comments .lc-item .lc-avatar {
+    width: 64px;
+    height: 64px;
+    border-radius: 50%;
+    float: left;
+    margin-right: 12px;
+}
+
+.latest-comments .lc-item .tw-text {
+    padding-top: 10px;
+    font-size: 16px;
+    color: #000000;
+    font-weight: 500;
+}
+
+.latest-comments .lc-item .tw-text a {
+    color: #b01ba5;
+}
+
+.latest-comments .lc-item .tw-text span {
+    color: #673ab7;
+}
